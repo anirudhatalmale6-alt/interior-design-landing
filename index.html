@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio Vireo — Interior Design Consultancy</title>
+<meta name="description" content="A small interior design consultancy shaping calm, light-filled homes. Book a free 30-minute consultation.">
+<meta name="theme-color" content="#FBF9F6">
+<link rel="canonical" href="https://example.com/">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Studio Vireo — Interior Design Consultancy">
+<meta property="og:description" content="Calm, light-filled interiors. Book a free 30-minute consultation.">
+<meta property="og:image" content="assets/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/hero.webp">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Studio Vireo",
+  "description": "Interior design consultancy for calm, light-filled homes.",
+  "url": "https://example.com/",
+  "telephone": "+442079460812",
+  "email": "hello@studiovireo.com",
+  "areaServed": "London",
+  "priceRange": "$$$",
+  "image": "assets/hero.jpg"
+}
+</script>
+</head>
+
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ── NAV ─────────────────────────────────────────────────────────────── -->
+<header class="nav" id="nav">
+  <a class="nav__mark" href="#top">
+    <span class="nav__markname" data-c="brand.name">Studio Vireo</span>
+    <span class="nav__marksub" data-c="brand.tagline">Interior Design Consultancy</span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#process">Process</a>
+  </nav>
+  <div class="nav__actions">
+    <a class="nav__tel" id="navTel" href="tel:+442079460812">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+      <span id="navTelText">+44 20 7946 0812</span>
+    </a>
+    <a class="btn btn--ink" href="#booking">Book a consultation</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ── HERO ────────────────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero__text">
+    <p class="eyebrow reveal" data-c="hero.eyebrow">Residential &amp; considered spaces</p>
+    <h1 class="hero__h1" id="heroHeadline">
+      <span class="line"><span>Rooms that</span></span>
+      <span class="line"><span>breathe, and</span></span>
+      <span class="line"><span><em>quietly</em> hold you.</span></span>
+    </h1>
+    <p class="hero__intro reveal" data-d="4" data-c="hero.intro">A small consultancy shaping calm, light-filled interiors.</p>
+    <div class="hero__cta reveal" data-d="5">
+      <a class="btn btn--ink btn--lg" href="#booking">Book a consultation</a>
+      <a class="btn btn--ghost btn--lg" id="heroTel" href="tel:+442079460812">Call the studio</a>
+    </div>
+    <p class="hero__loc reveal" data-d="6" data-c="brand.location">London — by appointment</p>
+  </div>
+
+  <figure class="hero__media reveal" data-d="3">
+    <div class="hero__frame"></div>
+    <img src="assets/hero.webp" width="1200" height="1600" alt="A light-filled minimalist living room with pale timber and travertine" fetchpriority="high">
+    <figcaption data-c="hero.imageCaption">Private residence — Notting Hill, 2025</figcaption>
+  </figure>
+</section>
+
+<!-- ── STATEMENT ───────────────────────────────────────────────────────── -->
+<section class="statement">
+  <p class="statement__p reveal" data-c="statement"></p>
+</section>
+
+<!-- ── SERVICES ────────────────────────────────────────────────────────── -->
+<section class="services" id="services">
+  <div class="sechead">
+    <p class="eyebrow reveal">Services offered</p>
+    <p class="sechead__intro reveal" data-d="1" data-c="servicesIntro"></p>
+  </div>
+  <ol class="svc" id="svcList"></ol>
+</section>
+
+<!-- ── WORK ────────────────────────────────────────────────────────────── -->
+<section class="work" id="work">
+  <p class="eyebrow reveal" data-c="workIntro">Selected work</p>
+  <div class="work__grid" id="workGrid"></div>
+</section>
+
+<!-- ── PROCESS ─────────────────────────────────────────────────────────── -->
+<section class="process" id="process">
+  <p class="eyebrow reveal">How it works</p>
+  <div class="process__grid" id="processGrid"></div>
+</section>
+
+<!-- ── BOOKING ─────────────────────────────────────────────────────────── -->
+<section class="booking" id="booking">
+  <div class="booking__side">
+    <h2 class="h2 reveal" id="bookHead"><span>Book a</span><span><em>consultation</em></span></h2>
+    <p class="booking__body reveal" data-d="1" data-c="booking.body"></p>
+    <p class="booking__note reveal" data-d="2" data-c="booking.note"></p>
+
+    <div class="reach reveal" data-d="3">
+      <a class="reach__card" id="reachTel" href="tel:+442079460812">
+        <span class="reach__k">Call</span>
+        <span class="reach__v" id="reachTelText">+44 20 7946 0812</span>
+        <span class="reach__arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="reach__card" id="reachMail" href="mailto:hello@studiovireo.com">
+        <span class="reach__k">Email</span>
+        <span class="reach__v" id="reachMailText">hello@studiovireo.com</span>
+        <span class="reach__arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="booking__cal reveal" data-d="2" id="calWrap">
+    <!-- Google Calendar appointment schedule is injected here by main.js -->
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────────────────── -->
+<footer class="foot">
+  <div class="foot__word" id="footWord">Studio Vireo</div>
+  <div class="foot__cols">
+    <div>
+      <span class="foot__k">Telephone</span>
+      <a id="footTel" href="tel:+442079460812">+44 20 7946 0812</a>
+    </div>
+    <div>
+      <span class="foot__k">Email</span>
+      <a id="footMail" href="mailto:hello@studiovireo.com">hello@studiovireo.com</a>
+    </div>
+    <div>
+      <span class="foot__k">Studio</span>
+      <span data-c="brand.location">London — by appointment</span>
+    </div>
+    <div id="footSocialWrap">
+      <span class="foot__k">Elsewhere</span>
+      <a id="footSocial" href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <div class="foot__base">
+    <span>© <span id="year">2026</span> <span data-c="brand.name">Studio Vireo</span></span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+</main>
+
+<!-- ── MOBILE STICKY BAR ───────────────────────────────────────────────── -->
+<div class="dock" aria-hidden="false">
+  <a class="dock__btn" id="dockTel" href="tel:+442079460812">Call</a>
+  <a class="dock__btn dock__btn--ink" href="#booking">Book a consultation</a>
+</div>
+
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
